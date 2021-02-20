@@ -1,0 +1,7 @@
+<p>Hoy: {{ today }}</p>
+<p>Hoy (ISO8601): {{ todayISO }}</p>
+<p>--</p>
+<p>Hora actual en España (Madrid): {{ today | localDate: 'short' : 'es-ES' : 'Europe/Madrid' }}</p>
+<p>Hora actual en Portugal (Lisboa): {{ today | localDate: 'short' : 'pt-PT' : 'Europe/Lisbon' }}</p>
+<p>Hora actual en EEUU (Nueva York): {{ today | localDate: 'short' : 'en-US' : 'America/New_York' }}</p>
+<p>Hora actual en Tokyo (Japón): {{ today | localDate: 'short' : 'ja-JP' : 'Asia/Tokyo' }}</p>
